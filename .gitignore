@@ -1,3 +1,4 @@
 # Mengabaikan direktori bernama "temp"
 vendor/
+.github/workflows/
 

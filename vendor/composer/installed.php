@@ -3,7 +3,7 @@
         'name' => 'sksso/smartsso-postgresql',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '37505428db758601b35cd9296e9cc1a720969989',
+        'reference' => 'c691998b5221fc064df84ce57c244ef6b29e3599',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -94,7 +94,7 @@
         'sksso/smartsso-postgresql' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '37505428db758601b35cd9296e9cc1a720969989',
+            'reference' => 'c691998b5221fc064df84ce57c244ef6b29e3599',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
