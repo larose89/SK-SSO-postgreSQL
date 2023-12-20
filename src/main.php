@@ -1,7 +1,7 @@
 <?php
 namespace sksso;
 
-class SDKlrvlSSO {
+class main {
     private $cryptor;
     private $config;
     private $db;
@@ -63,18 +63,13 @@ class SDKlrvlSSO {
         unset($hasil_data["uid"]);
         $dataUsers = $this->getDataUser($dataTable["nama_table"],$userKey,$hasil_data[$dataTable["user_key"]]);
         
-        // $resp['kode'] = 2007;
-        // $resp['pesan']['status'] = 'sukses';
-        // $resp['pesan']['keterangan'] = 'Data credential diterima';
-        // $resp['data'] = $dataUsers;
-        // print_r(json_encode($resp));die();
         $dataInsert = [];
         $dataUpdate = [];
         if($dataUsers)
         {
             foreach ($dataTable["field_table"] as $key => $value) {
                 $fieldInfo = Configs::getTableInfo($key);
-                if($fieldInfo["Extra"] <> "auto_increment")
+                if($fieldInfo["extra"] <> "auto_increment")
                 {
                     if($value <> NULL)
                     {
@@ -88,11 +83,11 @@ class SDKlrvlSSO {
         {
             foreach ($dataTable["field_table"] as $key => $value) {
                 $fieldInfo = Configs::getTableInfo($key);
-                if($fieldInfo["Extra"] <> "auto_increment")
+                if($fieldInfo["extra"] <> "auto_increment")
                 {
-                    if($value == NULL && $fieldInfo["Null"] == "NO")
+                    if($value == NULL && $fieldInfo["is_nullable"] == "NO")
                     {
-                        if($fieldInfo["Key"] == "UNI")
+                        if($fieldInfo["constraint_type"] == "UNIQUE")
                         {
                             $dataInsert[$key] = $hasil_data["nik"];
                         }
