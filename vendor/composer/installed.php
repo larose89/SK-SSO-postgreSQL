@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'sksso/smartsso-postgresql',
-        'pretty_version' => '1.0.5',
-        'version' => '1.0.5.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '37505428db758601b35cd9296e9cc1a720969989',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -92,9 +92,9 @@
             'dev_requirement' => false,
         ),
         'sksso/smartsso-postgresql' => array(
-            'pretty_version' => '1.0.5',
-            'version' => '1.0.5.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '37505428db758601b35cd9296e9cc1a720969989',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

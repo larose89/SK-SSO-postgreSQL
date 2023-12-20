@@ -1,7 +1,7 @@
 {
     "name": "sksso/smartsso-postgresql",
     "description": "SDK SSO Smartkampung Banyuwangi",
-    "version": "1.0.5",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "sksso\\": "src/"
