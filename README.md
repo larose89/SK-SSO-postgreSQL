@@ -25,7 +25,7 @@ Mengirim data session user ke server SSO untuk dilakukannya proses logout di ser
 Untuk instalasi SDK ini, gunakanlah composer.
 Buka command promp/terminal, masuk ke direktori utama projek anda, dengan menjalankan perintah berikut:
 ```
-composer require sksso/sdklrvlsso
+composer require sksso/smartsso-postgresql
 ```
 
 ## 4. Konfigurasi
