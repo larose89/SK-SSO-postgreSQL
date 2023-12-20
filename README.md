@@ -1,4 +1,5 @@
 [![PHP Composer](https://github.com/larose89/SK-SSO-postgreSQL/actions/workflows/php.yml/badge.svg)](https://github.com/larose89/SK-SSO-postgreSQL/actions/workflows/php.yml)
+[![Psalm Security Scan](https://github.com/larose89/SK-SSO-postgreSQL/actions/workflows/psalm.yml/badge.svg)](https://github.com/larose89/SK-SSO-postgreSQL/actions/workflows/psalm.yml)
 # Dokumentasi SDK SSO Smartkampung untuk Web PHP dengan DB PostgreSQL
 
 ## 1.	Deskripsi
