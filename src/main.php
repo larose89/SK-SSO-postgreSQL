@@ -197,6 +197,12 @@ class main {
         return json_decode($response, true);
     }
 
+    public function loginPage()
+    {
+        header('Location: '.$this->config('REDIRECT_LOGIN_PAGE'));
+        exit();
+    }
+    
     public function logout()
     {
         $res = $this->prosesLogout(false);
